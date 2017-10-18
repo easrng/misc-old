@@ -13,7 +13,7 @@ Fortunately, it is easy to prevent cookies from tracking you. In "Incognito", "I
 Ads can track a lot of what you do online. The reason they can is that ads can see the content of the pages that they're on. For example, this is why when you search for "Tomato Cages" the ads you will see for a while after that might have something to do with tomato cages. A way you can stop this is by using a browser add-on called [AdBlock](http://getadblock.com)
 
 ##Google Tracking
-Google tracks you. A lot. They probably have a record of everything you've searched for, watched on YouTube, and even most links you've clicked on Google websites. To check (and clear) your record go to [Google My Activity](https://myactivity.google.com). Another way to stop Google from tracking you is to use an alternate search engine such as [DuckDuckGo](http://ddg.gg) DuckDuckGo doesn't track you.
+Google tracks you. A lot. They probably have a record of everything you've searched for, watched on YouTube, and even most links you've clicked on Google websites. To check (and clear) your record go to [Google My Activity](https://myactivity.google.com). Another way to stop Google from tracking you is to use an alternate search engine such as [DuckDuckGo](http://ddg.gg). DuckDuckGo doesn't track you.
 
 ##Links
 AdBlock getadblock.com
