@@ -1,4 +1,4 @@
 #Welcome to easrng.github.io
-##Pages
+Pages:
 [EText](etext.html)
 [Internet Tracking Essay](essay.md)
