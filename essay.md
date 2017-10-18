@@ -18,5 +18,3 @@ Google tracks you. A lot. They probably have a record of everything you've searc
 ##Links
 AdBlock getadblock.com
 DuckDuckGo ddg.gg
-
-
