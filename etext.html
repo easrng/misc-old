@@ -1,5 +1,5 @@
 <html><head><title>EText</title></head><body>
-<button onclick='localStorage.setItem("content", document.querySelector("pre").innerHTML);'>Save</button><button onclick='document.querySelector("pre").innerHTML=localStorage.getItem("content");'>Load</button><button onclick='document.querySelector("pre").innerHTML=document.querySelector("pre").textContent'>Render as HTML</button><button onclick='document.write("<script>" + document.querySelector("pre").textContent + "</script>")'>Run as JS</button><button onclick="share()">Share</button>
+<button onclick='localStorage.setItem("content", document.querySelector("pre").innerHTML);'>Save</button><button onclick='document.querySelector("pre").innerHTML=localStorage.getItem("content");'>Load</button><button onclick='document.querySelector("pre").innerHTML=document.querySelector("pre").textContent'>Render as HTML</button><button onclick='document.body.innerHTML+="<script>" + document.querySelector("pre").textContent + "</script>"'>Run as JS</button><button onclick="share()">Share</button>
 <pre contenteditable style="width:100%;height:100%;" border="1"></pre>
 <!-- AddToAny END -->
   </div>
