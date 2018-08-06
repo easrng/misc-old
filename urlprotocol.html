@@ -17,8 +17,15 @@
   <script type="text/javascript">
    function autorun()
    {
+     try {
     navigator.registerProtocolHandler(
-    'web+esr', 'http://easrng.github.io/%s', 'ESR URL');
+    'web+esr', 'https://easrng.github.io/%s', 'ESR URL');
+     } catch {
+       document.querySelector("h1").innerHTML='<span style="color:red;">😢<br>Sorry, there was an error!</span>'
+     }
+     if(!document.querySelector("h1").innerHTML=='<span style="color:red;">😢<br>Sorry, there was an error!</span>'){
+        document.querySelector("h1").innerHTML='<span style="color:green;">Done!</span>'
+        }
    }
    if (document.addEventListener) document.addEventListener("DOMContentLoaded", autorun, false);
    else if (document.attachEvent) document.attachEvent("onreadystatechange", autorun);
