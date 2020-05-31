@@ -1,8 +1,0 @@
-<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
-<ShortName>Ms. Kennie</ShortName>
-<Description>Search Ms. Kennies's PortaPortal</Description>
-<InputEncoding>UTF-8</InputEncoding>
-<LongName>Search Ms. Kennies's PortaPortal</LongName>
-<Url type="text/html" method="get" template="https://easrng.github.io/mskenniesearch/query.html?q={searchTerms}"/>
-<Url type="application/x-suggestions+json" template="https://duckduckgo.com/ac/?q={searchTerms}&type=list"/>
-</OpenSearchDescription>
